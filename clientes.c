@@ -1,5 +1,5 @@
 /**
-* @file cliente.h
+* @file cliente.c
 * @author Rodrigo Salgueiro, Diogo Gonçalves
 * @date 25-11-2024
 * @version 1
