@@ -1,3 +1,15 @@
+/**
+* @file input.c
+* @author Rodrigo Salgueiro, Diogo Gonçalves
+* @date 25-11-2024
+* @version 1
+*
+*
+* @brief Ficheiro onde são declaradas funções protótipos 
+*
+*
+*/
+
 #ifndef INPUT_H
 #define INPUT_H
 

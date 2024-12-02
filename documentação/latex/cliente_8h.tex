@@ -1,0 +1,145 @@
+\doxysection{C\+:/\+Users/salgu/\+Documents/\+Net\+Beans\+Projects/\+SGE\+\_\+\+LP/cliente.h File Reference}
+\hypertarget{cliente_8h}{}\label{cliente_8h}\index{C:/Users/salgu/Documents/NetBeansProjects/SGE\_LP/cliente.h@{C:/Users/salgu/Documents/NetBeansProjects/SGE\_LP/cliente.h}}
+\doxysubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_cliente}{Cliente}}
+\item 
+struct \mbox{\hyperlink{struct_clientes}{Clientes}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{cliente_8h_aaf0c11244777b8dde7b6833b18af60d1}{ERRO\+\_\+\+CLIENTE\+\_\+\+NAO\+\_\+\+EXISTE}}~"{}O cliente não existe na lista."{}
+\item 
+\#define \mbox{\hyperlink{cliente_8h_a17d1cfa48ecf37a2a28b9e0e8b9dc6e1}{ERRO\+\_\+\+LISTA\+\_\+\+VAZIA}}~"{}A lista de cliente está vazia."{}
+\item 
+\#define \mbox{\hyperlink{cliente_8h_a65d3b21c5bfbd8ac97abd329e5a56ead}{ERRO\+\_\+\+LISTA\+\_\+\+CHEIA}}~"{}A lista de cliente está cheia."{}
+\item 
+\#define \mbox{\hyperlink{cliente_8h_ab112b7752fa3ccf2d0f7fbcc52cb1439}{ERRO\+\_\+\+CLIENTE\+\_\+\+EXISTE}}~"{}O número de cliente já se encontra atribuído."{}
+\item 
+\#define \mbox{\hyperlink{cliente_8h_aa7ee5aa81b7ed4eaa4af496eb0fac68e}{MAX\+\_\+\+CH\+\_\+\+NOME}}~31
+\item 
+\#define \mbox{\hyperlink{cliente_8h_a24821793d3512d829e8a08de0058b4ac}{MSG\+\_\+\+OBTER\+\_\+\+NOME}}~"{}Insira o nome do cliente\+: "{}
+\item 
+\#define \mbox{\hyperlink{cliente_8h_a0cf5c23bdf46ca7f4778aea7da2bc548}{MAX\+\_\+\+CLIENTES}}~100
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{cliente_8h_aaea227601804c4abe95300b33795e70d}{inserir\+Cliente}} (\mbox{\hyperlink{struct_cliente}{Cliente}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{struct_clientes}{Clientes}})
+\item 
+void \mbox{\hyperlink{cliente_8h_ae7d17981087f7f3a06d6f5e1c4409d54}{remover\+Cliente}} (\mbox{\hyperlink{struct_cliente}{Cliente}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{struct_clientes}{Clientes}})
+\item 
+void \mbox{\hyperlink{cliente_8h_a8507bac66320984a7549249e9ec62bb6}{atualizar\+Cliente}} (\mbox{\hyperlink{struct_cliente}{Cliente}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{struct_clientes}{Clientes}})
+\item 
+void \mbox{\hyperlink{cliente_8h_a06f7f704f0010a5dc8336b4b4a3767dd}{procurar\+Cliente}} (\mbox{\hyperlink{struct_cliente}{Cliente}} \mbox{\hyperlink{struct_clientes}{Clientes}})
+\item 
+void \mbox{\hyperlink{cliente_8h_ad6221733c32014d17007232035ea1c3f}{listar\+Cliente}} (\mbox{\hyperlink{struct_cliente}{Cliente}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{struct_clientes}{Clientes}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{cliente_8h_ab112b7752fa3ccf2d0f7fbcc52cb1439}\index{cliente.h@{cliente.h}!ERRO\_CLIENTE\_EXISTE@{ERRO\_CLIENTE\_EXISTE}}
+\index{ERRO\_CLIENTE\_EXISTE@{ERRO\_CLIENTE\_EXISTE}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{ERRO\_CLIENTE\_EXISTE}{ERRO\_CLIENTE\_EXISTE}}
+{\footnotesize\ttfamily \label{cliente_8h_ab112b7752fa3ccf2d0f7fbcc52cb1439} 
+\#define ERRO\+\_\+\+CLIENTE\+\_\+\+EXISTE~"{}O número de cliente já se encontra atribuído."{}}
+
+
+
+Definition at line \mbox{\hyperlink{cliente_8h_source_l00008}{8}} of file \mbox{\hyperlink{cliente_8h_source}{cliente.\+h}}.
+
+\Hypertarget{cliente_8h_aaf0c11244777b8dde7b6833b18af60d1}\index{cliente.h@{cliente.h}!ERRO\_CLIENTE\_NAO\_EXISTE@{ERRO\_CLIENTE\_NAO\_EXISTE}}
+\index{ERRO\_CLIENTE\_NAO\_EXISTE@{ERRO\_CLIENTE\_NAO\_EXISTE}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{ERRO\_CLIENTE\_NAO\_EXISTE}{ERRO\_CLIENTE\_NAO\_EXISTE}}
+{\footnotesize\ttfamily \label{cliente_8h_aaf0c11244777b8dde7b6833b18af60d1} 
+\#define ERRO\+\_\+\+CLIENTE\+\_\+\+NAO\+\_\+\+EXISTE~"{}O cliente não existe na lista."{}}
+
+
+
+Definition at line \mbox{\hyperlink{cliente_8h_source_l00005}{5}} of file \mbox{\hyperlink{cliente_8h_source}{cliente.\+h}}.
+
+\Hypertarget{cliente_8h_a65d3b21c5bfbd8ac97abd329e5a56ead}\index{cliente.h@{cliente.h}!ERRO\_LISTA\_CHEIA@{ERRO\_LISTA\_CHEIA}}
+\index{ERRO\_LISTA\_CHEIA@{ERRO\_LISTA\_CHEIA}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{ERRO\_LISTA\_CHEIA}{ERRO\_LISTA\_CHEIA}}
+{\footnotesize\ttfamily \label{cliente_8h_a65d3b21c5bfbd8ac97abd329e5a56ead} 
+\#define ERRO\+\_\+\+LISTA\+\_\+\+CHEIA~"{}A lista de cliente está cheia."{}}
+
+
+
+Definition at line \mbox{\hyperlink{cliente_8h_source_l00007}{7}} of file \mbox{\hyperlink{cliente_8h_source}{cliente.\+h}}.
+
+\Hypertarget{cliente_8h_a17d1cfa48ecf37a2a28b9e0e8b9dc6e1}\index{cliente.h@{cliente.h}!ERRO\_LISTA\_VAZIA@{ERRO\_LISTA\_VAZIA}}
+\index{ERRO\_LISTA\_VAZIA@{ERRO\_LISTA\_VAZIA}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{ERRO\_LISTA\_VAZIA}{ERRO\_LISTA\_VAZIA}}
+{\footnotesize\ttfamily \label{cliente_8h_a17d1cfa48ecf37a2a28b9e0e8b9dc6e1} 
+\#define ERRO\+\_\+\+LISTA\+\_\+\+VAZIA~"{}A lista de cliente está vazia."{}}
+
+
+
+Definition at line \mbox{\hyperlink{cliente_8h_source_l00006}{6}} of file \mbox{\hyperlink{cliente_8h_source}{cliente.\+h}}.
+
+\Hypertarget{cliente_8h_aa7ee5aa81b7ed4eaa4af496eb0fac68e}\index{cliente.h@{cliente.h}!MAX\_CH\_NOME@{MAX\_CH\_NOME}}
+\index{MAX\_CH\_NOME@{MAX\_CH\_NOME}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{MAX\_CH\_NOME}{MAX\_CH\_NOME}}
+{\footnotesize\ttfamily \label{cliente_8h_aa7ee5aa81b7ed4eaa4af496eb0fac68e} 
+\#define MAX\+\_\+\+CH\+\_\+\+NOME~31}
+
+
+
+Definition at line \mbox{\hyperlink{cliente_8h_source_l00010}{10}} of file \mbox{\hyperlink{cliente_8h_source}{cliente.\+h}}.
+
+\Hypertarget{cliente_8h_a0cf5c23bdf46ca7f4778aea7da2bc548}\index{cliente.h@{cliente.h}!MAX\_CLIENTES@{MAX\_CLIENTES}}
+\index{MAX\_CLIENTES@{MAX\_CLIENTES}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{MAX\_CLIENTES}{MAX\_CLIENTES}}
+{\footnotesize\ttfamily \label{cliente_8h_a0cf5c23bdf46ca7f4778aea7da2bc548} 
+\#define MAX\+\_\+\+CLIENTES~100}
+
+
+
+Definition at line \mbox{\hyperlink{cliente_8h_source_l00013}{13}} of file \mbox{\hyperlink{cliente_8h_source}{cliente.\+h}}.
+
+\Hypertarget{cliente_8h_a24821793d3512d829e8a08de0058b4ac}\index{cliente.h@{cliente.h}!MSG\_OBTER\_NOME@{MSG\_OBTER\_NOME}}
+\index{MSG\_OBTER\_NOME@{MSG\_OBTER\_NOME}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{MSG\_OBTER\_NOME}{MSG\_OBTER\_NOME}}
+{\footnotesize\ttfamily \label{cliente_8h_a24821793d3512d829e8a08de0058b4ac} 
+\#define MSG\+\_\+\+OBTER\+\_\+\+NOME~"{}Insira o nome do cliente\+: "{}}
+
+
+
+Definition at line \mbox{\hyperlink{cliente_8h_source_l00011}{11}} of file \mbox{\hyperlink{cliente_8h_source}{cliente.\+h}}.
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{cliente_8h_a8507bac66320984a7549249e9ec62bb6}\index{cliente.h@{cliente.h}!atualizarCliente@{atualizarCliente}}
+\index{atualizarCliente@{atualizarCliente}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{atualizarCliente()}{atualizarCliente()}}
+{\footnotesize\ttfamily \label{cliente_8h_a8507bac66320984a7549249e9ec62bb6} 
+void atualizar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_cliente}{Cliente}} \texorpdfstring{$\ast$}{*}}]{Clientes}{}\end{DoxyParamCaption})}
+
+\Hypertarget{cliente_8h_aaea227601804c4abe95300b33795e70d}\index{cliente.h@{cliente.h}!inserirCliente@{inserirCliente}}
+\index{inserirCliente@{inserirCliente}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{inserirCliente()}{inserirCliente()}}
+{\footnotesize\ttfamily \label{cliente_8h_aaea227601804c4abe95300b33795e70d} 
+void inserir\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_cliente}{Cliente}} \texorpdfstring{$\ast$}{*}}]{Clientes}{}\end{DoxyParamCaption})}
+
+\Hypertarget{cliente_8h_ad6221733c32014d17007232035ea1c3f}\index{cliente.h@{cliente.h}!listarCliente@{listarCliente}}
+\index{listarCliente@{listarCliente}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{listarCliente()}{listarCliente()}}
+{\footnotesize\ttfamily \label{cliente_8h_ad6221733c32014d17007232035ea1c3f} 
+void listar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_cliente}{Cliente}} \texorpdfstring{$\ast$}{*}}]{Clientes}{}\end{DoxyParamCaption})}
+
+\Hypertarget{cliente_8h_a06f7f704f0010a5dc8336b4b4a3767dd}\index{cliente.h@{cliente.h}!procurarCliente@{procurarCliente}}
+\index{procurarCliente@{procurarCliente}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{procurarCliente()}{procurarCliente()}}
+{\footnotesize\ttfamily \label{cliente_8h_a06f7f704f0010a5dc8336b4b4a3767dd} 
+void procurar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_cliente}{Cliente}}}]{Clientes}{}\end{DoxyParamCaption})}
+
+\Hypertarget{cliente_8h_ae7d17981087f7f3a06d6f5e1c4409d54}\index{cliente.h@{cliente.h}!removerCliente@{removerCliente}}
+\index{removerCliente@{removerCliente}!cliente.h@{cliente.h}}
+\doxysubsubsection{\texorpdfstring{removerCliente()}{removerCliente()}}
+{\footnotesize\ttfamily \label{cliente_8h_ae7d17981087f7f3a06d6f5e1c4409d54} 
+void remover\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_cliente}{Cliente}} \texorpdfstring{$\ast$}{*}}]{Clientes}{}\end{DoxyParamCaption})}
+

@@ -1,3 +1,15 @@
+/**
+* @file input.c
+* @author Rodrigo Salgueiro, Diogo Gonçalves
+* @date 25-11-2024
+* @version 1
+*
+*
+* @brief ficheiro para alocar funções que recebem dados
+*
+*
+*/
+
 #include <stdio.h>
 #include <string.h>
 
